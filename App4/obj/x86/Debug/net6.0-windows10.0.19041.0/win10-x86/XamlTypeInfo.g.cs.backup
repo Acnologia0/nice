@@ -224,7 +224,7 @@ namespace App4.App4_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[55];
+            _typeNameTable = new string[63];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -266,22 +266,30 @@ namespace App4.App4_XamlTypeInfo
             _typeNameTable[38] = "System.Collections.IList";
             _typeNameTable[39] = "App4.MainWindow";
             _typeNameTable[40] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[41] = "System.Collections.ObjectModel.ObservableCollection`1<Customer>";
-            _typeNameTable[42] = "System.Collections.ObjectModel.Collection`1<Customer>";
-            _typeNameTable[43] = "Customer";
-            _typeNameTable[44] = "System.Collections.Generic.List`1<Order>";
-            _typeNameTable[45] = "Order";
-            _typeNameTable[46] = "System.DateTime";
-            _typeNameTable[47] = "System.Collections.Generic.List`1<OrderItem>";
-            _typeNameTable[48] = "OrderItem";
-            _typeNameTable[49] = "Product";
-            _typeNameTable[50] = "System.Decimal";
-            _typeNameTable[51] = "System.Collections.ObjectModel.ObservableCollection`1<Product>";
-            _typeNameTable[52] = "System.Collections.ObjectModel.Collection`1<Product>";
-            _typeNameTable[53] = "System.Collections.ObjectModel.ObservableCollection`1<Order>";
-            _typeNameTable[54] = "System.Collections.ObjectModel.Collection`1<Order>";
+            _typeNameTable[41] = "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.KhachHang>";
+            _typeNameTable[42] = "System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.KhachHang>";
+            _typeNameTable[43] = "App4.HuongDoiTuong.KhachHang";
+            _typeNameTable[44] = "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.SanPham>";
+            _typeNameTable[45] = "System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.SanPham>";
+            _typeNameTable[46] = "App4.HuongDoiTuong.SanPham";
+            _typeNameTable[47] = "Single";
+            _typeNameTable[48] = "Int32[]";
+            _typeNameTable[49] = "System.Array";
+            _typeNameTable[50] = "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.DonDatHang>";
+            _typeNameTable[51] = "System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.DonDatHang>";
+            _typeNameTable[52] = "App4.HuongDoiTuong.DonDatHang";
+            _typeNameTable[53] = "System.DateTime";
+            _typeNameTable[54] = "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.DinhDuong>";
+            _typeNameTable[55] = "System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.DinhDuong>";
+            _typeNameTable[56] = "App4.HuongDoiTuong.DinhDuong";
+            _typeNameTable[57] = "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.ThanhPhan>";
+            _typeNameTable[58] = "System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.ThanhPhan>";
+            _typeNameTable[59] = "App4.HuongDoiTuong.ThanhPhan";
+            _typeNameTable[60] = "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.Loai>";
+            _typeNameTable[61] = "System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.Loai>";
+            _typeNameTable[62] = "App4.HuongDoiTuong.Loai";
 
-            _typeTable = new global::System.Type[55];
+            _typeTable = new global::System.Type[63];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -323,20 +331,28 @@ namespace App4.App4_XamlTypeInfo
             _typeTable[38] = typeof(global::System.Collections.IList);
             _typeTable[39] = typeof(global::App4.MainWindow);
             _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[41] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Customer>);
-            _typeTable[42] = typeof(global::System.Collections.ObjectModel.Collection<global::Customer>);
-            _typeTable[43] = typeof(global::Customer);
-            _typeTable[44] = typeof(global::System.Collections.Generic.List<global::Order>);
-            _typeTable[45] = typeof(global::Order);
-            _typeTable[46] = typeof(global::System.DateTime);
-            _typeTable[47] = typeof(global::System.Collections.Generic.List<global::OrderItem>);
-            _typeTable[48] = typeof(global::OrderItem);
-            _typeTable[49] = typeof(global::Product);
-            _typeTable[50] = typeof(global::System.Decimal);
-            _typeTable[51] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Product>);
-            _typeTable[52] = typeof(global::System.Collections.ObjectModel.Collection<global::Product>);
-            _typeTable[53] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Order>);
-            _typeTable[54] = typeof(global::System.Collections.ObjectModel.Collection<global::Order>);
+            _typeTable[41] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.KhachHang>);
+            _typeTable[42] = typeof(global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.KhachHang>);
+            _typeTable[43] = typeof(global::App4.HuongDoiTuong.KhachHang);
+            _typeTable[44] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.SanPham>);
+            _typeTable[45] = typeof(global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.SanPham>);
+            _typeTable[46] = typeof(global::App4.HuongDoiTuong.SanPham);
+            _typeTable[47] = typeof(global::System.Single);
+            _typeTable[48] = typeof(global::System.Int32[]);
+            _typeTable[49] = typeof(global::System.Array);
+            _typeTable[50] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.DonDatHang>);
+            _typeTable[51] = typeof(global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.DonDatHang>);
+            _typeTable[52] = typeof(global::App4.HuongDoiTuong.DonDatHang);
+            _typeTable[53] = typeof(global::System.DateTime);
+            _typeTable[54] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.DinhDuong>);
+            _typeTable[55] = typeof(global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.DinhDuong>);
+            _typeTable[56] = typeof(global::App4.HuongDoiTuong.DinhDuong);
+            _typeTable[57] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.ThanhPhan>);
+            _typeTable[58] = typeof(global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.ThanhPhan>);
+            _typeTable[59] = typeof(global::App4.HuongDoiTuong.ThanhPhan);
+            _typeTable[60] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.Loai>);
+            _typeTable[61] = typeof(global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.Loai>);
+            _typeTable[62] = typeof(global::App4.HuongDoiTuong.Loai);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -380,18 +396,18 @@ namespace App4.App4_XamlTypeInfo
         private object Activate_36_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>(); }
         private object Activate_37_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>(); }
         private object Activate_39_MainWindow() { return new global::App4.MainWindow(); }
-        private object Activate_41_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Customer>(); }
-        private object Activate_42_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Customer>(); }
-        private object Activate_43_Customer() { return new global::Customer(); }
-        private object Activate_44_List() { return new global::System.Collections.Generic.List<global::Order>(); }
-        private object Activate_45_Order() { return new global::Order(); }
-        private object Activate_47_List() { return new global::System.Collections.Generic.List<global::OrderItem>(); }
-        private object Activate_48_OrderItem() { return new global::OrderItem(); }
-        private object Activate_49_Product() { return new global::Product(); }
-        private object Activate_51_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Product>(); }
-        private object Activate_52_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Product>(); }
-        private object Activate_53_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Order>(); }
-        private object Activate_54_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Order>(); }
+        private object Activate_41_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.KhachHang>(); }
+        private object Activate_42_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.KhachHang>(); }
+        private object Activate_44_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.SanPham>(); }
+        private object Activate_45_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.SanPham>(); }
+        private object Activate_50_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.DonDatHang>(); }
+        private object Activate_51_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.DonDatHang>(); }
+        private object Activate_54_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.DinhDuong>(); }
+        private object Activate_55_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.DinhDuong>(); }
+        private object Activate_57_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.ThanhPhan>(); }
+        private object Activate_58_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.ThanhPhan>(); }
+        private object Activate_60_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.Loai>(); }
+        private object Activate_61_Collection() { return new global::System.Collections.ObjectModel.Collection<global::App4.HuongDoiTuong.Loai>(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -437,50 +453,74 @@ namespace App4.App4_XamlTypeInfo
         }
         private void VectorAdd_41_ObservableCollection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Customer>)instance;
-            var newItem = (global::Customer)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.KhachHang>)instance;
+            var newItem = (global::App4.HuongDoiTuong.KhachHang)item;
             collection.Add(newItem);
         }
         private void VectorAdd_42_Collection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Customer>)instance;
-            var newItem = (global::Customer)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.KhachHang>)instance;
+            var newItem = (global::App4.HuongDoiTuong.KhachHang)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_44_List(object instance, object item)
+        private void VectorAdd_44_ObservableCollection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Order>)instance;
-            var newItem = (global::Order)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.SanPham>)instance;
+            var newItem = (global::App4.HuongDoiTuong.SanPham)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_47_List(object instance, object item)
+        private void VectorAdd_45_Collection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::OrderItem>)instance;
-            var newItem = (global::OrderItem)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.SanPham>)instance;
+            var newItem = (global::App4.HuongDoiTuong.SanPham)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_51_ObservableCollection(object instance, object item)
+        private void VectorAdd_50_ObservableCollection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Product>)instance;
-            var newItem = (global::Product)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.DonDatHang>)instance;
+            var newItem = (global::App4.HuongDoiTuong.DonDatHang)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_52_Collection(object instance, object item)
+        private void VectorAdd_51_Collection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Product>)instance;
-            var newItem = (global::Product)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.DonDatHang>)instance;
+            var newItem = (global::App4.HuongDoiTuong.DonDatHang)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_53_ObservableCollection(object instance, object item)
+        private void VectorAdd_54_ObservableCollection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Order>)instance;
-            var newItem = (global::Order)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.DinhDuong>)instance;
+            var newItem = (global::App4.HuongDoiTuong.DinhDuong)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_54_Collection(object instance, object item)
+        private void VectorAdd_55_Collection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Order>)instance;
-            var newItem = (global::Order)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.DinhDuong>)instance;
+            var newItem = (global::App4.HuongDoiTuong.DinhDuong)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_57_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.ThanhPhan>)instance;
+            var newItem = (global::App4.HuongDoiTuong.ThanhPhan)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_58_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.ThanhPhan>)instance;
+            var newItem = (global::App4.HuongDoiTuong.ThanhPhan)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_60_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.Loai>)instance;
+            var newItem = (global::App4.HuongDoiTuong.Loai)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_61_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::App4.HuongDoiTuong.Loai>)instance;
+            var newItem = (global::App4.HuongDoiTuong.Loai)item;
             collection.Add(newItem);
         }
 
@@ -792,6 +832,9 @@ namespace App4.App4_XamlTypeInfo
                 userType.AddMemberName("khachhangs");
                 userType.AddMemberName("sanphams");
                 userType.AddMemberName("dondathangs");
+                userType.AddMemberName("dinhduongs");
+                userType.AddMemberName("thanhphans");
+                userType.AddMemberName("loais");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -800,119 +843,168 @@ namespace App4.App4_XamlTypeInfo
                 xamlType = new global::App4.App4_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 41:   //  System.Collections.ObjectModel.ObservableCollection`1<Customer>
-                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Customer>"));
+            case 41:   //  System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.KhachHang>
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.KhachHang>"));
                 userType.CollectionAdd = VectorAdd_41_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 42:   //  System.Collections.ObjectModel.Collection`1<Customer>
+            case 42:   //  System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.KhachHang>
                 userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_42_Collection;
                 userType.CollectionAdd = VectorAdd_42_Collection;
                 xamlType = userType;
                 break;
 
-            case 43:   //  Customer
+            case 43:   //  App4.HuongDoiTuong.KhachHang
                 userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_43_Customer;
-                userType.AddMemberName("CustomerId");
+                userType.AddMemberName("ID");
                 userType.AddMemberName("Name");
-                userType.AddMemberName("Email");
-                userType.AddMemberName("PhoneNumber");
-                userType.AddMemberName("Orders");
-                userType.AddMemberName("Image");
+                userType.AddMemberName("SDT");
+                userType.AddMemberName("DonDatHang");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  System.Collections.Generic.List`1<Order>
-                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_44_List;
+            case 44:   //  System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.SanPham>
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.SanPham>"));
+                userType.CollectionAdd = VectorAdd_44_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 45:   //  Order
+            case 45:   //  System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.SanPham>
                 userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_45_Order;
-                userType.AddMemberName("OrderId");
-                userType.AddMemberName("Customer");
-                userType.AddMemberName("OrderDate");
-                userType.AddMemberName("OrderItems");
-                userType.AddMemberName("TotalAmount");
+                userType.Activator = Activate_45_Collection;
+                userType.CollectionAdd = VectorAdd_45_Collection;
+                xamlType = userType;
+                break;
+
+            case 46:   //  App4.HuongDoiTuong.SanPham
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("ID");
+                userType.AddMemberName("Name");
+                userType.AddMemberName("GiaBan");
+                userType.AddMemberName("GiaNhap");
+                userType.AddMemberName("TienLoi");
+                userType.AddMemberName("Loai");
+                userType.AddMemberName("ThanhPhan");
+                userType.AddMemberName("DinhDuong");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 46:   //  System.DateTime
+            case 47:   //  Single
+                xamlType = new global::App4.App4_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 48:   //  Int32[]
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Array"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 49:   //  System.Array
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 50:   //  System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.DonDatHang>
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.DonDatHang>"));
+                userType.CollectionAdd = VectorAdd_50_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 51:   //  System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.DonDatHang>
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_51_Collection;
+                userType.CollectionAdd = VectorAdd_51_Collection;
+                xamlType = userType;
+                break;
+
+            case 52:   //  App4.HuongDoiTuong.DonDatHang
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("ID");
+                userType.AddMemberName("SanPham");
+                userType.AddMemberName("GhiChu");
+                userType.AddMemberName("DaHoanThanh");
+                userType.AddMemberName("NgayDat");
+                userType.AddMemberName("NgayHoanThanh");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 53:   //  System.DateTime
                 userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 47:   //  System.Collections.Generic.List`1<OrderItem>
-                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_47_List;
+            case 54:   //  System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.DinhDuong>
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.DinhDuong>"));
+                userType.CollectionAdd = VectorAdd_54_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 48:   //  OrderItem
+            case 55:   //  System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.DinhDuong>
                 userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_48_OrderItem;
-                userType.AddMemberName("OrderItemId");
-                userType.AddMemberName("Product");
-                userType.AddMemberName("Quantity");
-                userType.SetIsLocalType();
+                userType.Activator = Activate_55_Collection;
+                userType.CollectionAdd = VectorAdd_55_Collection;
                 xamlType = userType;
                 break;
 
-            case 49:   //  Product
+            case 56:   //  App4.HuongDoiTuong.DinhDuong
                 userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_49_Product;
-                userType.AddMemberName("Id");
+                userType.AddMemberName("ID");
                 userType.AddMemberName("Name");
-                userType.AddMemberName("Category");
-                userType.AddMemberName("Price");
-                userType.AddMemberName("Stock");
-                userType.AddMemberName("Image");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 50:   //  System.Decimal
-                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+            case 57:   //  System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.ThanhPhan>
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.ThanhPhan>"));
+                userType.CollectionAdd = VectorAdd_57_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 51:   //  System.Collections.ObjectModel.ObservableCollection`1<Product>
-                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Product>"));
-                userType.CollectionAdd = VectorAdd_51_ObservableCollection;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 52:   //  System.Collections.ObjectModel.Collection`1<Product>
+            case 58:   //  System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.ThanhPhan>
                 userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_52_Collection;
-                userType.CollectionAdd = VectorAdd_52_Collection;
+                userType.Activator = Activate_58_Collection;
+                userType.CollectionAdd = VectorAdd_58_Collection;
                 xamlType = userType;
                 break;
 
-            case 53:   //  System.Collections.ObjectModel.ObservableCollection`1<Order>
-                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Order>"));
-                userType.CollectionAdd = VectorAdd_53_ObservableCollection;
+            case 59:   //  App4.HuongDoiTuong.ThanhPhan
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("ID");
+                userType.AddMemberName("Name");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 60:   //  System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.Loai>
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.Loai>"));
+                userType.CollectionAdd = VectorAdd_60_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 54:   //  System.Collections.ObjectModel.Collection`1<Order>
+            case 61:   //  System.Collections.ObjectModel.Collection`1<App4.HuongDoiTuong.Loai>
                 userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_54_Collection;
-                userType.CollectionAdd = VectorAdd_54_Collection;
+                userType.Activator = Activate_61_Collection;
+                userType.CollectionAdd = VectorAdd_61_Collection;
+                xamlType = userType;
+                break;
+
+            case 62:   //  App4.HuongDoiTuong.Loai
+                userType = new global::App4.App4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("ID");
+                userType.AddMemberName("Name");
+                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
             }
@@ -1639,222 +1731,292 @@ namespace App4.App4_XamlTypeInfo
         private void set_69_MainWindow_khachhangs(object instance, object Value)
         {
             var that = (global::App4.MainWindow)instance;
-            that.khachhangs = (global::System.Collections.ObjectModel.ObservableCollection<global::Customer>)Value;
+            that.khachhangs = (global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.KhachHang>)Value;
         }
-        private object get_70_Customer_CustomerId(object instance)
+        private object get_70_KhachHang_ID(object instance)
         {
-            var that = (global::Customer)instance;
-            return that.CustomerId;
+            var that = (global::App4.HuongDoiTuong.KhachHang)instance;
+            return that.ID;
         }
-        private void set_70_Customer_CustomerId(object instance, object Value)
+        private void set_70_KhachHang_ID(object instance, object Value)
         {
-            var that = (global::Customer)instance;
-            that.CustomerId = (global::System.Int32)Value;
+            var that = (global::App4.HuongDoiTuong.KhachHang)instance;
+            that.ID = (global::System.Int32)Value;
         }
-        private object get_71_Customer_Name(object instance)
+        private object get_71_KhachHang_Name(object instance)
         {
-            var that = (global::Customer)instance;
+            var that = (global::App4.HuongDoiTuong.KhachHang)instance;
             return that.Name;
         }
-        private void set_71_Customer_Name(object instance, object Value)
+        private void set_71_KhachHang_Name(object instance, object Value)
         {
-            var that = (global::Customer)instance;
+            var that = (global::App4.HuongDoiTuong.KhachHang)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_72_Customer_Email(object instance)
+        private object get_72_KhachHang_SDT(object instance)
         {
-            var that = (global::Customer)instance;
-            return that.Email;
+            var that = (global::App4.HuongDoiTuong.KhachHang)instance;
+            return that.SDT;
         }
-        private void set_72_Customer_Email(object instance, object Value)
+        private void set_72_KhachHang_SDT(object instance, object Value)
         {
-            var that = (global::Customer)instance;
-            that.Email = (global::System.String)Value;
+            var that = (global::App4.HuongDoiTuong.KhachHang)instance;
+            that.SDT = (global::System.String)Value;
         }
-        private object get_73_Customer_PhoneNumber(object instance)
+        private object get_73_KhachHang_DonDatHang(object instance)
         {
-            var that = (global::Customer)instance;
-            return that.PhoneNumber;
+            var that = (global::App4.HuongDoiTuong.KhachHang)instance;
+            return that.DonDatHang;
         }
-        private void set_73_Customer_PhoneNumber(object instance, object Value)
+        private void set_73_KhachHang_DonDatHang(object instance, object Value)
         {
-            var that = (global::Customer)instance;
-            that.PhoneNumber = (global::System.String)Value;
+            var that = (global::App4.HuongDoiTuong.KhachHang)instance;
+            that.DonDatHang = (global::System.Int32)Value;
         }
-        private object get_74_Customer_Orders(object instance)
-        {
-            var that = (global::Customer)instance;
-            return that.Orders;
-        }
-        private void set_74_Customer_Orders(object instance, object Value)
-        {
-            var that = (global::Customer)instance;
-            that.Orders = (global::System.Collections.Generic.List<global::Order>)Value;
-        }
-        private object get_75_Order_OrderId(object instance)
-        {
-            var that = (global::Order)instance;
-            return that.OrderId;
-        }
-        private void set_75_Order_OrderId(object instance, object Value)
-        {
-            var that = (global::Order)instance;
-            that.OrderId = (global::System.Int32)Value;
-        }
-        private object get_76_Order_Customer(object instance)
-        {
-            var that = (global::Order)instance;
-            return that.Customer;
-        }
-        private void set_76_Order_Customer(object instance, object Value)
-        {
-            var that = (global::Order)instance;
-            that.Customer = (global::Customer)Value;
-        }
-        private object get_77_Order_OrderDate(object instance)
-        {
-            var that = (global::Order)instance;
-            return that.OrderDate;
-        }
-        private void set_77_Order_OrderDate(object instance, object Value)
-        {
-            var that = (global::Order)instance;
-            that.OrderDate = (global::System.DateTime)Value;
-        }
-        private object get_78_Order_OrderItems(object instance)
-        {
-            var that = (global::Order)instance;
-            return that.OrderItems;
-        }
-        private void set_78_Order_OrderItems(object instance, object Value)
-        {
-            var that = (global::Order)instance;
-            that.OrderItems = (global::System.Collections.Generic.List<global::OrderItem>)Value;
-        }
-        private object get_79_OrderItem_OrderItemId(object instance)
-        {
-            var that = (global::OrderItem)instance;
-            return that.OrderItemId;
-        }
-        private void set_79_OrderItem_OrderItemId(object instance, object Value)
-        {
-            var that = (global::OrderItem)instance;
-            that.OrderItemId = (global::System.Int32)Value;
-        }
-        private object get_80_OrderItem_Product(object instance)
-        {
-            var that = (global::OrderItem)instance;
-            return that.Product;
-        }
-        private void set_80_OrderItem_Product(object instance, object Value)
-        {
-            var that = (global::OrderItem)instance;
-            that.Product = (global::Product)Value;
-        }
-        private object get_81_OrderItem_Quantity(object instance)
-        {
-            var that = (global::OrderItem)instance;
-            return that.Quantity;
-        }
-        private void set_81_OrderItem_Quantity(object instance, object Value)
-        {
-            var that = (global::OrderItem)instance;
-            that.Quantity = (global::System.Int32)Value;
-        }
-        private object get_82_Order_TotalAmount(object instance)
-        {
-            var that = (global::Order)instance;
-            return that.TotalAmount;
-        }
-        private object get_83_Customer_Image(object instance)
-        {
-            var that = (global::Customer)instance;
-            return that.Image;
-        }
-        private void set_83_Customer_Image(object instance, object Value)
-        {
-            var that = (global::Customer)instance;
-            that.Image = (global::System.String)Value;
-        }
-        private object get_84_MainWindow_sanphams(object instance)
+        private object get_74_MainWindow_sanphams(object instance)
         {
             var that = (global::App4.MainWindow)instance;
             return that.sanphams;
         }
-        private void set_84_MainWindow_sanphams(object instance, object Value)
+        private void set_74_MainWindow_sanphams(object instance, object Value)
         {
             var that = (global::App4.MainWindow)instance;
-            that.sanphams = (global::System.Collections.ObjectModel.ObservableCollection<global::Product>)Value;
+            that.sanphams = (global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.SanPham>)Value;
         }
-        private object get_85_Product_Id(object instance)
+        private object get_75_SanPham_ID(object instance)
         {
-            var that = (global::Product)instance;
-            return that.Id;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            return that.ID;
         }
-        private void set_85_Product_Id(object instance, object Value)
+        private void set_75_SanPham_ID(object instance, object Value)
         {
-            var that = (global::Product)instance;
-            that.Id = (global::System.Int32)Value;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            that.ID = (global::System.Int32)Value;
         }
-        private object get_86_Product_Name(object instance)
+        private object get_76_SanPham_Name(object instance)
         {
-            var that = (global::Product)instance;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
             return that.Name;
         }
-        private void set_86_Product_Name(object instance, object Value)
+        private void set_76_SanPham_Name(object instance, object Value)
         {
-            var that = (global::Product)instance;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_87_Product_Category(object instance)
+        private object get_77_SanPham_GiaBan(object instance)
         {
-            var that = (global::Product)instance;
-            return that.Category;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            return that.GiaBan;
         }
-        private void set_87_Product_Category(object instance, object Value)
+        private void set_77_SanPham_GiaBan(object instance, object Value)
         {
-            var that = (global::Product)instance;
-            that.Category = (global::System.String)Value;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            that.GiaBan = (global::System.Single)Value;
         }
-        private object get_88_Product_Price(object instance)
+        private object get_78_SanPham_GiaNhap(object instance)
         {
-            var that = (global::Product)instance;
-            return that.Price;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            return that.GiaNhap;
         }
-        private void set_88_Product_Price(object instance, object Value)
+        private void set_78_SanPham_GiaNhap(object instance, object Value)
         {
-            var that = (global::Product)instance;
-            that.Price = (global::System.Decimal)Value;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            that.GiaNhap = (global::System.Single)Value;
         }
-        private object get_89_Product_Stock(object instance)
+        private object get_79_SanPham_TienLoi(object instance)
         {
-            var that = (global::Product)instance;
-            return that.Stock;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            return that.TienLoi;
         }
-        private void set_89_Product_Stock(object instance, object Value)
+        private object get_80_SanPham_Loai(object instance)
         {
-            var that = (global::Product)instance;
-            that.Stock = (global::System.Int32)Value;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            return that.Loai;
         }
-        private object get_90_Product_Image(object instance)
+        private void set_80_SanPham_Loai(object instance, object Value)
         {
-            var that = (global::Product)instance;
-            return that.Image;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            that.Loai = (global::System.Int32[])Value;
         }
-        private void set_90_Product_Image(object instance, object Value)
+        private object get_81_SanPham_ThanhPhan(object instance)
         {
-            var that = (global::Product)instance;
-            that.Image = (global::System.String)Value;
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            return that.ThanhPhan;
         }
-        private object get_91_MainWindow_dondathangs(object instance)
+        private void set_81_SanPham_ThanhPhan(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            that.ThanhPhan = (global::System.Int32[])Value;
+        }
+        private object get_82_SanPham_DinhDuong(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            return that.DinhDuong;
+        }
+        private void set_82_SanPham_DinhDuong(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.SanPham)instance;
+            that.DinhDuong = (global::System.Int32[])Value;
+        }
+        private object get_83_MainWindow_dondathangs(object instance)
         {
             var that = (global::App4.MainWindow)instance;
             return that.dondathangs;
         }
-        private void set_91_MainWindow_dondathangs(object instance, object Value)
+        private void set_83_MainWindow_dondathangs(object instance, object Value)
         {
             var that = (global::App4.MainWindow)instance;
-            that.dondathangs = (global::System.Collections.ObjectModel.ObservableCollection<global::Order>)Value;
+            that.dondathangs = (global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.DonDatHang>)Value;
+        }
+        private object get_84_DonDatHang_ID(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            return that.ID;
+        }
+        private void set_84_DonDatHang_ID(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            that.ID = (global::System.Int32)Value;
+        }
+        private object get_85_DonDatHang_SanPham(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            return that.SanPham;
+        }
+        private void set_85_DonDatHang_SanPham(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            that.SanPham = (global::System.Int32[])Value;
+        }
+        private object get_86_DonDatHang_GhiChu(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            return that.GhiChu;
+        }
+        private void set_86_DonDatHang_GhiChu(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            that.GhiChu = (global::System.String)Value;
+        }
+        private object get_87_DonDatHang_DaHoanThanh(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            return that.DaHoanThanh;
+        }
+        private void set_87_DonDatHang_DaHoanThanh(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            that.DaHoanThanh = (global::System.Boolean)Value;
+        }
+        private object get_88_DonDatHang_NgayDat(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            return that.NgayDat;
+        }
+        private void set_88_DonDatHang_NgayDat(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            that.NgayDat = (global::System.DateTime)Value;
+        }
+        private object get_89_DonDatHang_NgayHoanThanh(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            return that.NgayHoanThanh;
+        }
+        private void set_89_DonDatHang_NgayHoanThanh(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.DonDatHang)instance;
+            that.NgayHoanThanh = (global::System.DateTime)Value;
+        }
+        private object get_90_MainWindow_dinhduongs(object instance)
+        {
+            var that = (global::App4.MainWindow)instance;
+            return that.dinhduongs;
+        }
+        private void set_90_MainWindow_dinhduongs(object instance, object Value)
+        {
+            var that = (global::App4.MainWindow)instance;
+            that.dinhduongs = (global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.DinhDuong>)Value;
+        }
+        private object get_91_DinhDuong_ID(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.DinhDuong)instance;
+            return that.ID;
+        }
+        private void set_91_DinhDuong_ID(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.DinhDuong)instance;
+            that.ID = (global::System.Int32)Value;
+        }
+        private object get_92_DinhDuong_Name(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.DinhDuong)instance;
+            return that.Name;
+        }
+        private void set_92_DinhDuong_Name(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.DinhDuong)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_93_MainWindow_thanhphans(object instance)
+        {
+            var that = (global::App4.MainWindow)instance;
+            return that.thanhphans;
+        }
+        private void set_93_MainWindow_thanhphans(object instance, object Value)
+        {
+            var that = (global::App4.MainWindow)instance;
+            that.thanhphans = (global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.ThanhPhan>)Value;
+        }
+        private object get_94_ThanhPhan_ID(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.ThanhPhan)instance;
+            return that.ID;
+        }
+        private void set_94_ThanhPhan_ID(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.ThanhPhan)instance;
+            that.ID = (global::System.Int32)Value;
+        }
+        private object get_95_ThanhPhan_Name(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.ThanhPhan)instance;
+            return that.Name;
+        }
+        private void set_95_ThanhPhan_Name(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.ThanhPhan)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_96_MainWindow_loais(object instance)
+        {
+            var that = (global::App4.MainWindow)instance;
+            return that.loais;
+        }
+        private void set_96_MainWindow_loais(object instance, object Value)
+        {
+            var that = (global::App4.MainWindow)instance;
+            that.loais = (global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.Loai>)Value;
+        }
+        private object get_97_Loai_ID(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.Loai)instance;
+            return that.ID;
+        }
+        private void set_97_Loai_ID(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.Loai)instance;
+            that.ID = (global::System.Int32)Value;
+        }
+        private object get_98_Loai_Name(object instance)
+        {
+            var that = (global::App4.HuongDoiTuong.Loai)instance;
+            return that.Name;
+        }
+        private void set_98_Loai_Name(object instance, object Value)
+        {
+            var that = (global::App4.HuongDoiTuong.Loai)instance;
+            that.Name = (global::System.String)Value;
         }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -2325,141 +2487,183 @@ namespace App4.App4_XamlTypeInfo
                 break;
             case "App4.MainWindow.khachhangs":
                 userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.MainWindow");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "khachhangs", "System.Collections.ObjectModel.ObservableCollection`1<Customer>");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "khachhangs", "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.KhachHang>");
                 xamlMember.Getter = get_69_MainWindow_khachhangs;
                 xamlMember.Setter = set_69_MainWindow_khachhangs;
                 break;
-            case "Customer.CustomerId":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Customer");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "CustomerId", "Int32");
-                xamlMember.Getter = get_70_Customer_CustomerId;
-                xamlMember.Setter = set_70_Customer_CustomerId;
+            case "App4.HuongDoiTuong.KhachHang.ID":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.KhachHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "ID", "Int32");
+                xamlMember.Getter = get_70_KhachHang_ID;
+                xamlMember.Setter = set_70_KhachHang_ID;
                 break;
-            case "Customer.Name":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Customer");
+            case "App4.HuongDoiTuong.KhachHang.Name":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.KhachHang");
                 xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_71_Customer_Name;
-                xamlMember.Setter = set_71_Customer_Name;
+                xamlMember.Getter = get_71_KhachHang_Name;
+                xamlMember.Setter = set_71_KhachHang_Name;
                 break;
-            case "Customer.Email":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Customer");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Email", "String");
-                xamlMember.Getter = get_72_Customer_Email;
-                xamlMember.Setter = set_72_Customer_Email;
+            case "App4.HuongDoiTuong.KhachHang.SDT":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.KhachHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "SDT", "String");
+                xamlMember.Getter = get_72_KhachHang_SDT;
+                xamlMember.Setter = set_72_KhachHang_SDT;
                 break;
-            case "Customer.PhoneNumber":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Customer");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "PhoneNumber", "String");
-                xamlMember.Getter = get_73_Customer_PhoneNumber;
-                xamlMember.Setter = set_73_Customer_PhoneNumber;
-                break;
-            case "Customer.Orders":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Customer");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Orders", "System.Collections.Generic.List`1<Order>");
-                xamlMember.Getter = get_74_Customer_Orders;
-                xamlMember.Setter = set_74_Customer_Orders;
-                break;
-            case "Order.OrderId":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Order");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "OrderId", "Int32");
-                xamlMember.Getter = get_75_Order_OrderId;
-                xamlMember.Setter = set_75_Order_OrderId;
-                break;
-            case "Order.Customer":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Order");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Customer", "Customer");
-                xamlMember.Getter = get_76_Order_Customer;
-                xamlMember.Setter = set_76_Order_Customer;
-                break;
-            case "Order.OrderDate":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Order");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "OrderDate", "System.DateTime");
-                xamlMember.Getter = get_77_Order_OrderDate;
-                xamlMember.Setter = set_77_Order_OrderDate;
-                break;
-            case "Order.OrderItems":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Order");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "OrderItems", "System.Collections.Generic.List`1<OrderItem>");
-                xamlMember.Getter = get_78_Order_OrderItems;
-                xamlMember.Setter = set_78_Order_OrderItems;
-                break;
-            case "OrderItem.OrderItemId":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OrderItem");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "OrderItemId", "Int32");
-                xamlMember.Getter = get_79_OrderItem_OrderItemId;
-                xamlMember.Setter = set_79_OrderItem_OrderItemId;
-                break;
-            case "OrderItem.Product":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OrderItem");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Product", "Product");
-                xamlMember.Getter = get_80_OrderItem_Product;
-                xamlMember.Setter = set_80_OrderItem_Product;
-                break;
-            case "OrderItem.Quantity":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OrderItem");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Quantity", "Int32");
-                xamlMember.Getter = get_81_OrderItem_Quantity;
-                xamlMember.Setter = set_81_OrderItem_Quantity;
-                break;
-            case "Order.TotalAmount":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Order");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "TotalAmount", "System.Decimal");
-                xamlMember.Getter = get_82_Order_TotalAmount;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Customer.Image":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Customer");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Image", "String");
-                xamlMember.Getter = get_83_Customer_Image;
-                xamlMember.Setter = set_83_Customer_Image;
+            case "App4.HuongDoiTuong.KhachHang.DonDatHang":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.KhachHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "DonDatHang", "Int32");
+                xamlMember.Getter = get_73_KhachHang_DonDatHang;
+                xamlMember.Setter = set_73_KhachHang_DonDatHang;
                 break;
             case "App4.MainWindow.sanphams":
                 userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.MainWindow");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "sanphams", "System.Collections.ObjectModel.ObservableCollection`1<Product>");
-                xamlMember.Getter = get_84_MainWindow_sanphams;
-                xamlMember.Setter = set_84_MainWindow_sanphams;
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "sanphams", "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.SanPham>");
+                xamlMember.Getter = get_74_MainWindow_sanphams;
+                xamlMember.Setter = set_74_MainWindow_sanphams;
                 break;
-            case "Product.Id":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Product");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_85_Product_Id;
-                xamlMember.Setter = set_85_Product_Id;
+            case "App4.HuongDoiTuong.SanPham.ID":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.SanPham");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "ID", "Int32");
+                xamlMember.Getter = get_75_SanPham_ID;
+                xamlMember.Setter = set_75_SanPham_ID;
                 break;
-            case "Product.Name":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Product");
+            case "App4.HuongDoiTuong.SanPham.Name":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.SanPham");
                 xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_86_Product_Name;
-                xamlMember.Setter = set_86_Product_Name;
+                xamlMember.Getter = get_76_SanPham_Name;
+                xamlMember.Setter = set_76_SanPham_Name;
                 break;
-            case "Product.Category":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Product");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Category", "String");
-                xamlMember.Getter = get_87_Product_Category;
-                xamlMember.Setter = set_87_Product_Category;
+            case "App4.HuongDoiTuong.SanPham.GiaBan":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.SanPham");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "GiaBan", "Single");
+                xamlMember.Getter = get_77_SanPham_GiaBan;
+                xamlMember.Setter = set_77_SanPham_GiaBan;
                 break;
-            case "Product.Price":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Product");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Price", "System.Decimal");
-                xamlMember.Getter = get_88_Product_Price;
-                xamlMember.Setter = set_88_Product_Price;
+            case "App4.HuongDoiTuong.SanPham.GiaNhap":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.SanPham");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "GiaNhap", "Single");
+                xamlMember.Getter = get_78_SanPham_GiaNhap;
+                xamlMember.Setter = set_78_SanPham_GiaNhap;
                 break;
-            case "Product.Stock":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Product");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Stock", "Int32");
-                xamlMember.Getter = get_89_Product_Stock;
-                xamlMember.Setter = set_89_Product_Stock;
+            case "App4.HuongDoiTuong.SanPham.TienLoi":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.SanPham");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "TienLoi", "Single");
+                xamlMember.Getter = get_79_SanPham_TienLoi;
+                xamlMember.SetIsReadOnly();
                 break;
-            case "Product.Image":
-                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Product");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Image", "String");
-                xamlMember.Getter = get_90_Product_Image;
-                xamlMember.Setter = set_90_Product_Image;
+            case "App4.HuongDoiTuong.SanPham.Loai":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.SanPham");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Loai", "Int32[]");
+                xamlMember.Getter = get_80_SanPham_Loai;
+                xamlMember.Setter = set_80_SanPham_Loai;
+                break;
+            case "App4.HuongDoiTuong.SanPham.ThanhPhan":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.SanPham");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "ThanhPhan", "Int32[]");
+                xamlMember.Getter = get_81_SanPham_ThanhPhan;
+                xamlMember.Setter = set_81_SanPham_ThanhPhan;
+                break;
+            case "App4.HuongDoiTuong.SanPham.DinhDuong":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.SanPham");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "DinhDuong", "Int32[]");
+                xamlMember.Getter = get_82_SanPham_DinhDuong;
+                xamlMember.Setter = set_82_SanPham_DinhDuong;
                 break;
             case "App4.MainWindow.dondathangs":
                 userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.MainWindow");
-                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "dondathangs", "System.Collections.ObjectModel.ObservableCollection`1<Order>");
-                xamlMember.Getter = get_91_MainWindow_dondathangs;
-                xamlMember.Setter = set_91_MainWindow_dondathangs;
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "dondathangs", "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.DonDatHang>");
+                xamlMember.Getter = get_83_MainWindow_dondathangs;
+                xamlMember.Setter = set_83_MainWindow_dondathangs;
+                break;
+            case "App4.HuongDoiTuong.DonDatHang.ID":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.DonDatHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "ID", "Int32");
+                xamlMember.Getter = get_84_DonDatHang_ID;
+                xamlMember.Setter = set_84_DonDatHang_ID;
+                break;
+            case "App4.HuongDoiTuong.DonDatHang.SanPham":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.DonDatHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "SanPham", "Int32[]");
+                xamlMember.Getter = get_85_DonDatHang_SanPham;
+                xamlMember.Setter = set_85_DonDatHang_SanPham;
+                break;
+            case "App4.HuongDoiTuong.DonDatHang.GhiChu":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.DonDatHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "GhiChu", "String");
+                xamlMember.Getter = get_86_DonDatHang_GhiChu;
+                xamlMember.Setter = set_86_DonDatHang_GhiChu;
+                break;
+            case "App4.HuongDoiTuong.DonDatHang.DaHoanThanh":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.DonDatHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "DaHoanThanh", "Boolean");
+                xamlMember.Getter = get_87_DonDatHang_DaHoanThanh;
+                xamlMember.Setter = set_87_DonDatHang_DaHoanThanh;
+                break;
+            case "App4.HuongDoiTuong.DonDatHang.NgayDat":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.DonDatHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "NgayDat", "System.DateTime");
+                xamlMember.Getter = get_88_DonDatHang_NgayDat;
+                xamlMember.Setter = set_88_DonDatHang_NgayDat;
+                break;
+            case "App4.HuongDoiTuong.DonDatHang.NgayHoanThanh":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.DonDatHang");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "NgayHoanThanh", "System.DateTime");
+                xamlMember.Getter = get_89_DonDatHang_NgayHoanThanh;
+                xamlMember.Setter = set_89_DonDatHang_NgayHoanThanh;
+                break;
+            case "App4.MainWindow.dinhduongs":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.MainWindow");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "dinhduongs", "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.DinhDuong>");
+                xamlMember.Getter = get_90_MainWindow_dinhduongs;
+                xamlMember.Setter = set_90_MainWindow_dinhduongs;
+                break;
+            case "App4.HuongDoiTuong.DinhDuong.ID":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.DinhDuong");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "ID", "Int32");
+                xamlMember.Getter = get_91_DinhDuong_ID;
+                xamlMember.Setter = set_91_DinhDuong_ID;
+                break;
+            case "App4.HuongDoiTuong.DinhDuong.Name":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.DinhDuong");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_92_DinhDuong_Name;
+                xamlMember.Setter = set_92_DinhDuong_Name;
+                break;
+            case "App4.MainWindow.thanhphans":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.MainWindow");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "thanhphans", "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.ThanhPhan>");
+                xamlMember.Getter = get_93_MainWindow_thanhphans;
+                xamlMember.Setter = set_93_MainWindow_thanhphans;
+                break;
+            case "App4.HuongDoiTuong.ThanhPhan.ID":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.ThanhPhan");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "ID", "Int32");
+                xamlMember.Getter = get_94_ThanhPhan_ID;
+                xamlMember.Setter = set_94_ThanhPhan_ID;
+                break;
+            case "App4.HuongDoiTuong.ThanhPhan.Name":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.ThanhPhan");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_95_ThanhPhan_Name;
+                xamlMember.Setter = set_95_ThanhPhan_Name;
+                break;
+            case "App4.MainWindow.loais":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.MainWindow");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "loais", "System.Collections.ObjectModel.ObservableCollection`1<App4.HuongDoiTuong.Loai>");
+                xamlMember.Getter = get_96_MainWindow_loais;
+                xamlMember.Setter = set_96_MainWindow_loais;
+                break;
+            case "App4.HuongDoiTuong.Loai.ID":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.Loai");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "ID", "Int32");
+                xamlMember.Getter = get_97_Loai_ID;
+                xamlMember.Setter = set_97_Loai_ID;
+                break;
+            case "App4.HuongDoiTuong.Loai.Name":
+                userType = (global::App4.App4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App4.HuongDoiTuong.Loai");
+                xamlMember = new global::App4.App4_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_98_Loai_Name;
+                xamlMember.Setter = set_98_Loai_Name;
                 break;
             }
             return xamlMember;

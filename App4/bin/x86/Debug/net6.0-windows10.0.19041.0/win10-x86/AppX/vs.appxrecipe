@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-09T09:27:44.959</Modified>
+      <Modified>2023-05-09T17:12:44.521</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-09T09:27:44.695</Modified>
+      <Modified>2023-05-09T17:12:44.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.runtimeconfig.json">
       <PackagePath>App4.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-09T04:14:24.675</Modified>
+      <Modified>2023-05-09T17:12:44.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.dll">
       <PackagePath>App4.dll</PackagePath>
-      <Modified>2023-05-09T09:27:44.421</Modified>
+      <Modified>2023-05-09T17:12:44.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>App4.exe</PackagePath>
-      <Modified>2023-05-09T09:27:44.437</Modified>
+      <Modified>2023-05-09T17:12:44.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.deps.json">
       <PackagePath>App4.deps.json</PackagePath>
-      <Modified>2023-05-09T04:14:24.672</Modified>
+      <Modified>2023-05-09T17:12:44.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.16\runtimes\win-x86\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

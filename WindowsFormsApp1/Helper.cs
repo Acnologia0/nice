@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App4
+namespace WindowsFormsApp1
 {
-    internal class Query
+    internal class Helper
     {
-     
     }
 }

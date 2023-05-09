@@ -167,7 +167,7 @@ namespace App4
                     }
                 }
             }
-            private void Update_dondathangs(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.DonDatHang> obj, int phase)
+            private void Update_dondathangs(global::System.Collections.ObjectModel.ObservableCollection<global::Order> obj, int phase)
             {
                 if ((phase & ((1 << 0) | NOT_PHASED )) != 0)
                 {
@@ -178,7 +178,7 @@ namespace App4
                     }
                 }
             }
-            private void Update_sanphams(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.SanPham> obj, int phase)
+            private void Update_sanphams(global::System.Collections.ObjectModel.ObservableCollection<global::Product> obj, int phase)
             {
                 if ((phase & ((1 << 0) | NOT_PHASED )) != 0)
                 {
@@ -189,7 +189,7 @@ namespace App4
                     }
                 }
             }
-            private void Update_khachhangs(global::System.Collections.ObjectModel.ObservableCollection<global::App4.HuongDoiTuong.KhachHang> obj, int phase)
+            private void Update_khachhangs(global::System.Collections.ObjectModel.ObservableCollection<global::Customer> obj, int phase)
             {
                 if ((phase & ((1 << 0) | NOT_PHASED )) != 0)
                 {
