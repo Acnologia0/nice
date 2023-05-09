@@ -21,9 +21,9 @@ namespace App4
             public float GiaBan { get; set; }
             public float GiaNhap { get; set; }
             public float TienLoi => GiaBan - GiaNhap;
-            public int[] loais { get; set; }
-            public int[] thanhphan { get; set; }
-            public int[] dinhduong { get; set; }
+            public int[] Loai { get; set; }
+            public int[] ThanhPhan { get; set; }
+            public int[] DinhDuong { get; set; }
             public SanPham() 
             {
 
@@ -33,11 +33,11 @@ namespace App4
         public class DonDatHang
         {
             public int ID { get; set; }
-            public int[] sanpham { get; set; }
-            public string note { get; set; }
-            public bool dahoanthanh { get; set; }
-            public DateTime ngaydathang { get; set; }
-            public DateTime ngayhoanthanh { get; set; }
+            public int[] SanPham { get; set; }
+            public string GhiChu { get; set; }
+            public bool DaHoanThanh { get; set; }
+            public DateTime NgayDat { get; set; }
+            public DateTime NgayHoanThanh { get; set; }
         }
         public class KhachHang
         {
@@ -60,10 +60,7 @@ namespace App4
         public class DinhDuong
         {
             public int ID { get; set; }
-            public string Name
-            {
-                get; set;
-            } 
+            public string Name { get; set; }
         }    
     }
 }

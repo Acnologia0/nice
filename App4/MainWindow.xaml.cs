@@ -35,42 +35,37 @@ public sealed partial class MainWindow : Window
 
     public ObservableCollection<HuongDoiTuong.KhachHang> khachhangs { get; set; } = new();
     public ObservableCollection<HuongDoiTuong.SanPham> sanphams { get; set; } = new();
+    public ObservableCollection<HuongDoiTuong.DonDatHang> dondathangs { get; set; } = new();
     public ObservableCollection<HuongDoiTuong.DinhDuong> dinhduongs { get; set; } = new();
     public ObservableCollection<HuongDoiTuong.ThanhPhan> thanhphans { get; set; } = new();
     public ObservableCollection<HuongDoiTuong.Loai> loais { get; set; } = new();
-    private void Button_Click(object sender, RoutedEventArgs e)
-    {
-        AddKhachHang();
-    }
-
-    public void LayDuLieu()
-    {
-        AddKhachHang();
-        AddSanPham();
-        AddDinhDuong();
-        AddThanhPhan();
-        AddLoai();
-
-    }
-    public void AddKhachHang()
+    public void AddKhachHang(object sender, RoutedEventArgs e)
     {
         var khachhang = new HuongDoiTuong.KhachHang();
         khachhang.ID = khachhangs.Count;
         khachhangs.Add(khachhang);
     }
-    public void AddSanPham()
+    public void AddSanPham(object sender, RoutedEventArgs e)
     {
-
+        var sanpham = new HuongDoiTuong.SanPham();
+        sanpham.ID = sanphams.Count;
+        sanphams.Add(sanpham);
     }
-    public void AddDinhDuong()
+    public void AddDonDatHang(object sender, RoutedEventArgs e)
     {
-
+        var donhang = new HuongDoiTuong.DonDatHang();
+        donhang.ID = dondathangs.Count;
+        dondathangs.Add(donhang);
     }
-    public void AddThanhPhan()
+
+    private void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
     {
-
+        // C# code to create a new window
+        var newWindow = new MainWindow();
+        newWindow.Activate();
     }
-    public void AddLoai()
+
+    private void Button_Click(object sender, RoutedEventArgs e)
     {
 
     }

@@ -1,33 +1,228 @@
-﻿<!-- Copyright (c) Microsoft Corporation and Contributors. -->
-<!-- Licensed under the MIT License. -->
+﻿<!--  Copyright (c) Microsoft Corporation and Contributors.  -->
+<!--  Licensed under the MIT License.  -->
 
 <Window x:ConnectionId='1'
     x:Class="App4.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:App4"  
     xmlns:control="using:CommunityToolkit.WinUI.UI.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:App4"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
     <Border>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
+        <StackPanel>
+            <MenuBar>
+                <MenuBarItem Title="File">
+                    <MenuFlyoutItem x:ConnectionId='8'                              Text="New" />
+                    <MenuFlyoutItem x:ConnectionId='9'                              Text="Open..." />
+                    <MenuFlyoutItem x:ConnectionId='10'                              Text="Save" />
+                    <MenuFlyoutItem x:ConnectionId='11'                              Text="Exit" />
+                </MenuBarItem>
+            </MenuBar>
 
-            <Button x:ConnectionId='2' Grid.Row="0" Margin="10" Content="Add"                     ></Button>
-            <Grid Grid.Row="1" Margin="10">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-            </Grid>
-            <control:DataGrid x:ConnectionId='3' x:Name="KhachHang" Grid.Row="1"                                  />
-        </Grid>
+            <AutoSuggestBox
+                HorizontalContentAlignment="Center"
+                PlaceholderText="Quick search"
+                QueryIcon="Find" />
+            <Pivot Title="Quan Ly" MinHeight="400">
+                <PivotItem Header="Khach Hang">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <CommandBar
+                            Background="Transparent"
+                            DefaultLabelPosition="Right"
+                            IsOpen="False">
+                            <AppBarButton x:ConnectionId='7'
+                                                    
+                                Icon="Add"
+                                Label="Add" />
+                            <AppBarButton Icon="Edit" Label="Edit" />
+                            <AppBarButton Icon="Share" Label="Share" />
+                            <CommandBar.SecondaryCommands>
+                                <AppBarButton Icon="Setting" Label="Settings">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="I" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="Add" Label="Add">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="N" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="Delete" Label="Remove">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Delete" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarSeparator />
+                                <AppBarButton Icon="FontDecrease" Label="Font Decrease">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Subtract" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="FontIncrease" Label="Font Increase">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Add" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                            </CommandBar.SecondaryCommands>
+                        </CommandBar>
+
+                        <Grid Grid.Row="1" Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <control:DataGrid x:ConnectionId='6'
+                            x:Name="KhachHang"
+                            Grid.Row="1"
+                                                              />
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="San Pham">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <CommandBar
+                            Background="Transparent"
+                            DefaultLabelPosition="Right"
+                            IsOpen="False">
+                            <AppBarButton x:ConnectionId='5'
+                                                  
+                                Icon="Add"
+                                Label="Add" />
+                            <AppBarButton Icon="Edit" Label="Edit" />
+                            <AppBarButton Icon="Share" Label="Share" />
+                            <CommandBar.SecondaryCommands>
+                                <AppBarButton Icon="Setting" Label="Settings">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="I" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="Add" Label="Add">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="N" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="Delete" Label="Remove">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Delete" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarSeparator />
+                                <AppBarButton Icon="FontDecrease" Label="Font Decrease">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Subtract" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="FontIncrease" Label="Font Increase">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Add" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                            </CommandBar.SecondaryCommands>
+                        </CommandBar>
+
+                        <Grid Grid.Row="1" Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <control:DataGrid x:ConnectionId='4'
+                            x:Name="SanPham"
+                            Grid.Row="1"
+                                                            />
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="Don Dat Hang">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <CommandBar
+                            Background="Transparent"
+                            DefaultLabelPosition="Right"
+                            IsOpen="False">
+                            <AppBarButton x:ConnectionId='3'
+                                                     
+                                Icon="Add"
+                                Label="Add" />
+                            <AppBarButton Icon="Edit" Label="Edit" />
+                            <AppBarButton Icon="Share" Label="Share" />
+                            <CommandBar.SecondaryCommands>
+                                <AppBarButton Icon="Setting" Label="Settings">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="I" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="Add" Label="Add">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="N" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="Delete" Label="Remove">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Delete" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarSeparator />
+                                <AppBarButton Icon="FontDecrease" Label="Font Decrease">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Subtract" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                                <AppBarButton Icon="FontIncrease" Label="Font Increase">
+                                    <AppBarButton.KeyboardAccelerators>
+                                        <KeyboardAccelerator Key="Add" Modifiers="Control" />
+                                    </AppBarButton.KeyboardAccelerators>
+                                </AppBarButton>
+                            </CommandBar.SecondaryCommands>
+                        </CommandBar>
+
+                        <Grid Grid.Row="1" Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <control:DataGrid x:ConnectionId='2'
+                            x:Name="DonHang"
+                            Grid.Row="1"
+                                                               />
+                    </Grid>
+                </PivotItem>
+                <PivotItem Header="Doanh Thu">
+                    <Grid>
+                        <CommandBar>
+                            <CommandBar.PrimaryCommands>
+                                <AppBarButton Icon="AttachCamera" Label="Attach Camera" />
+                                <AppBarSeparator />
+                                <AppBarButton Icon="Like" Label="Like" />
+                                <AppBarButton Icon="Dislike" Label="Dislike" />
+                                <AppBarSeparator />
+                                <AppBarButton Icon="Orientation" Label="Orientation" />
+                            </CommandBar.PrimaryCommands>
+                        </CommandBar>
+                    </Grid>
+                </PivotItem>
+            </Pivot>
+        </StackPanel>
     </Border>
 </Window>
 
