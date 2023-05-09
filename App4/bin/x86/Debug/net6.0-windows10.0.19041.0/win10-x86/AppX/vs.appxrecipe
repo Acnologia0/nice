@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6297eee4-5ddc-4f41-931e-b8816b200fc4</PackageIdentityName>
     <PackageIdentityPublisher>CN=funny</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Work\App4\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>D:\Work\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
+    <LayoutDir>C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
     <RegisteredManifestChecksum>609FEBA76869BEB4FD4ABBF7F28B062B63E12D640D93ED98CD8B2781F8B5EA57</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6297eee4-5ddc-4f41-931e-b8816b200fc4_1.0.0.0_x86__xnxx9c8jxh4rt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6297eee4-5ddc-4f41-931e-b8816b200fc4_xnxx9c8jxh4rt!App</RegisteredUserModeAppID>
@@ -27,32 +27,32 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Work\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-07T13:24:59.712</Modified>
+      <Modified>2023-05-09T03:09:30.749</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Work\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-07T13:24:59.543</Modified>
+      <Modified>2023-05-09T03:09:30.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.runtimeconfig.json">
       <PackagePath>App4.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-07T12:43:02.140</Modified>
+      <Modified>2023-05-09T02:39:21.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.dll">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.dll">
       <PackagePath>App4.dll</PackagePath>
-      <Modified>2023-05-07T13:24:59.466</Modified>
+      <Modified>2023-05-09T03:09:30.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>App4.exe</PackagePath>
-      <Modified>2023-05-07T13:24:59.470</Modified>
+      <Modified>2023-05-09T03:09:30.491</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.deps.json">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\App4.deps.json">
       <PackagePath>App4.deps.json</PackagePath>
-      <Modified>2023-05-07T13:01:04.478</Modified>
+      <Modified>2023-05-09T02:39:21.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.16\runtimes\win-x86\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -954,6 +954,58 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\colorcode.core\2.0.13\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+      <Modified>2021-11-17T21:36:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\colorcode.winui\2.0.13\lib\net5.0-windows10.0.18362\ColorCode.WinUI.dll">
+      <PackagePath>ColorCode.WinUI.dll</PackagePath>
+      <Modified>2021-11-17T21:36:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.common\7.1.2\lib\net5.0\CommunityToolkit.Common.dll">
+      <PackagePath>CommunityToolkit.Common.dll</PackagePath>
+      <Modified>2021-11-18T21:56:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.dll">
+      <PackagePath>CommunityToolkit.WinUI.dll</PackagePath>
+      <Modified>2021-11-18T21:56:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.dll</PackagePath>
+      <Modified>2021-11-18T21:56:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.core\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Core.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Core.dll</PackagePath>
+      <Modified>2021-11-18T21:56:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2021-11-18T21:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.input\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Input.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Input.dll</PackagePath>
+      <Modified>2021-11-18T21:56:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.layout\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Layout.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Layout.dll</PackagePath>
+      <Modified>2021-11-18T21:56:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.markdown\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Markdown.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Markdown.dll</PackagePath>
+      <Modified>2021-11-18T21:56:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.media\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Media.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Media.dll</PackagePath>
+      <Modified>2021-11-18T21:57:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.primitives\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Primitives.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Primitives.dll</PackagePath>
+      <Modified>2021-11-18T21:57:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\microsoft.graphics.win2d\1.0.0.30\lib\net5.0-windows10.0.18362.0\Microsoft.Graphics.Canvas.Interop.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
+      <Modified>2021-11-16T23:41:48.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\microsoft.windowsappsdk\1.2.221109.1\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
       <Modified>2022-10-28T10:21:44.000</Modified>
@@ -1010,35 +1062,83 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\microsoft.graphics.win2d\1.0.0.30\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2021-11-16T23:44:02.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\microsoft.windowsappsdk\1.2.221109.1\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.3.0\runtimes\win7-x86\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-11-05T04:34:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\colorcode.winui\2.0.13\lib\net5.0-windows10.0.18362\ColorCode.WinUI.pri">
+      <PackagePath>ColorCode.WinUI.pri</PackagePath>
+      <Modified>2021-11-17T21:36:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.pri">
+      <PackagePath>CommunityToolkit.WinUI.pri</PackagePath>
+      <Modified>2021-11-18T21:50:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.pri</PackagePath>
+      <Modified>2021-11-18T21:50:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.core\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Core.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Core.pri</PackagePath>
+      <Modified>2021-11-18T21:50:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.datagrid\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.DataGrid.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.DataGrid.pri</PackagePath>
+      <Modified>2021-11-18T21:49:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.input\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Input.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Input.pri</PackagePath>
+      <Modified>2021-11-18T21:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.layout\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Layout.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Layout.pri</PackagePath>
+      <Modified>2021-11-18T21:50:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.markdown\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Markdown.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Markdown.pri</PackagePath>
+      <Modified>2021-11-18T21:51:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.media\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Media.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Media.pri</PackagePath>
+      <Modified>2021-11-18T21:51:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\.nuget\packages\communitytoolkit.winui.ui.controls.primitives\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.Controls.Primitives.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.Controls.Primitives.pri</PackagePath>
+      <Modified>2021-11-18T21:50:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2023-05-07T12:18:14.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2023-05-07T12:18:14.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <Modified>2023-05-07T12:18:14.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <Modified>2023-05-07T12:18:14.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <Modified>2023-05-07T12:18:14.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2023-05-07T12:18:14.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Work\App4\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\funny\OneDrive\Documents\GitHub\nice\App4\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2023-05-07T12:18:14.098</Modified>
     </AppxPackagedFile>
